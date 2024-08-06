@@ -1,0 +1,84 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>MUSIC PLAYER</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Library</a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <div class="playlist">
+                <div class="song" data-index="0">
+                    <img src="https://a10.gaanacdn.com/gn_img/albums/BZgWoOW2d9/ZgWolB4Eb2/size_l.jpg" alt="Cover 1">
+                    <div class="song-info">
+                        <h3>College Life</h3>
+                        <p>Khasa Aala Chahar</p>
+                    </div>
+                </div>
+                <div class="song" data-index="1">
+                    <img src="https://i.ytimg.com/vi/jaNt-FvdjlQ/maxresdefault.jpg" alt="Cover 2">
+                    <div class="song-info">
+                        <h3>Dabya Ni Karde</h3>
+                        <p>ND Kundu & Bintu Pabra</p>
+                    </div>
+                </div>
+                <div class="song" data-index="2">
+                    <img src="https://i.ytimg.com/vi/Xq5zvXK4PX4/maxresdefault.jpg" alt="Cover 3">
+                    <div class="song-info">
+                        <h3>Choudhar Jaat Ki</h3>
+                        <p>Raju Punjabi</p>
+                    </div>
+                </div>
+                <div class="song" data-index="3">
+                    <img src="https://i.ytimg.com/vi/K9ElLVJTfbA/maxresdefault.jpg" alt="Cover 3">
+                    <div class="song-info">
+                        <h3>Combination</h3>
+                        <p>Amrit Maan</p>
+                    </div>
+                </div>
+                <div class="song" data-index="4">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.KQSgXyvn7JLXuDCwBdYiTAHaHa&pid=Api&P=0&h=180" alt="Cover 3">
+                    <div class="song-info">
+                        <h3>Roots</h3>
+                        <p>Bintu Pabra</p>
+                    </div>
+                </div>
+                <div class="song" data-index="4">
+                    <img src="https://i.ytimg.com/vi/rq_L9RowkBg/maxresdefault.jpg" alt="Cover 3">
+                    <div class="song-info">
+                        <h3>Western UP</h3>
+                        <p>Eshan Bhati</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="music-player">
+        <div class="player-info">
+            <img id="playerCover" src="https://i.ytimg.com/vi/rq_L9RowkBg/maxresdefault.jpg" alt="Cover">
+            <div class="player-song-info">
+                <h3 id="playerTitle">Western UP</h3>
+                <p id="playerArtist">Eshan Bhati</p>
+            </div>
+        </div>
+        <audio id="audioPlayer" src="Westernup"></audio>
+        <div class="player-controls">
+            <button id="prevBtn">Prev</button>
+            <button id="playBtn">Play</button>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
